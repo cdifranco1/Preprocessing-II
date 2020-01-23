@@ -1,1 +1,20 @@
 // Mixins in here
+
+.custom-button(@color: white, @width: 80%, @bg-color: @eastern-blue, @padding: 6%, @border-radius: 15px, @font-size: 1.5rem){
+    background: @bg-color;
+    width: @width;
+    color: @color;
+    padding: @padding;
+    border-radius: @border-radius;
+    font-size: @font-size;
+    text-align: center;
+}
+
+.standard-flex(){
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column(){
+    flex-direction: column;
+}
